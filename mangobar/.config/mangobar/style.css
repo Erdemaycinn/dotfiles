@@ -1,0 +1,36 @@
+@define-color background #0f0f0f;
+@define-color foreground #ddccbc;
+
+*{
+  font-family:"BlexMono Nerd Font", monospace;
+  font-size:16px;
+  background-color: @background;
+  color: @foreground;
+  border-radius: 0px;
+  padding 20px
+}
+
+#tray{
+  padding-right: 20px;
+}
+#clock{
+ padding-left: 20px;
+}
+#pulseaudio{
+  padding:20px;
+}
+#network{
+  padding-left:20px;
+}
+#battery{
+  padding:20px;
+}
+#tags.active {
+    color: #ddccbc;
+}
+#tags.hover{
+    color: #cb812a
+}
+#tags {
+    color: #383532;
+}
