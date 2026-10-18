@@ -31,7 +31,7 @@
 		"signal-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
 	},
 	"pulseaudio": {
-		"format": "{icon} {volume}%",
+		"format": "{icon}  {volume}%",
 		"format-muted": " {volume}% {bt}",
 		"icons": ["", "", "", "", "", "", "", ""],
 		"icon-bluetooth": "󰂯",
