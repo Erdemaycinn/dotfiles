@@ -4,7 +4,11 @@ export NNN_COLORS='#04050603'
 export NNN_FCOLORS='03030402000e060109050d01'
 ZSH_THEME="mushi"
 
-plugins=(git)
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/fzf/key-bindings.zsh
