@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.config/emacs/bin:$PATH"
 export EDITOR=nvim
 export NNN_COLORS='#04050603'
 export NNN_FCOLORS='03030402000e060109050d01'
@@ -16,3 +17,6 @@ source /usr/share/fzf/completion.zsh
 
 alias ls='ls -1 --color'
 alias nnn='nnn -e'
+
+# Unity CLI
+case ":${PATH}:" in *:"$HOME/.local/bin":*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
